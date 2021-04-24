@@ -7,12 +7,14 @@ const TempConv = () =>{
 if(numberTemp === ""){
     alert("Please Enter Temprature!!");
 }else{
+// This is the Condition Celsius into Fahrenheit
 
     const celToFar = (cel) => {
         let fahrenheit = Math.round((cel * 9 / 5) + 32);
         return fahrenheit;
     }
 
+// This is the condition Fahrenheit into celsius
 
     const farToCel = (fehr) => {
         let celsius = Math.round((fehr - 32) * 5 / 9);

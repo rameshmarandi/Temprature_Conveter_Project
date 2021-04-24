@@ -14,7 +14,6 @@ background: #3498db;
 
 }
 form{
-   
    padding: 25px 30px;
    border-radius: 7px;
   display:flex;
@@ -80,4 +79,12 @@ form input, select{
     font-weight: bold;
     width: 100%;
     text-align: center;
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
